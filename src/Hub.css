@@ -1,0 +1,85 @@
+.hub-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: #f0f2f5;
+}
+
+.hub-header {
+  background-color: #007bff;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.rbc-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.hub-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.hub-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.section {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section h2 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+.section ul li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #e6f7ff;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  color: #333333;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.section ul li:hover {
+  background-color: #cceeff;
+  transform: translateX(5px);
+}
+
+.section ul li:last-child {
+  border-bottom: none;
+}

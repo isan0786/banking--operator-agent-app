@@ -1,0 +1,125 @@
+.form-container {
+    background-color: #f0f2f5; /* Synchronized background color with Hub */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px; /* Increased max-width */
+    margin: 30px auto;
+  }
+  
+  .page-container {
+    background-color: #007bff; /* Blue background for the entire page */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .rbc-logo {
+    width: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container h3 {
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .task-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .task-list li {
+    margin-bottom: 10px;
+  }
+  
+  .task-button {
+    width: 100%;
+    padding: 15px; /* Adjusted padding */
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px; /* Adjusted font size */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .plus-icon {
+    font-size: 20px; /* Adjusted font size */
+    margin-left: 10px;
+  }
+  
+  .form-box {
+    background-color: #e6f7ff; /* Different background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: max-height 0.3s ease-out;
+  }
+  
+  .account-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px; /* Adjusted font size */
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px; /* Adjusted padding */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px; /* Adjusted font size */
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-button {
+    padding: 12px; /* Adjusted padding */
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px; /* Adjusted font size */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
