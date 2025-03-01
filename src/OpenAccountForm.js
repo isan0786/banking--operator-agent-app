@@ -46,7 +46,7 @@ function OpenAccountForm() {
                   <label>Address:</label>
                   <input type="text" required />
                 </div>
-                <div className="form-group">
+                {/* <div className="form-group">
                   <label>Email:</label>
                   <input type="email" required />
                 </div>
@@ -79,7 +79,7 @@ function OpenAccountForm() {
                     <option value="divorced">Divorced</option>
                     <option value="widowed">Widowed</option>
                   </select>
-                </div>
+                </div> */}
                 <button type="submit" className="submit-button">Submit</button>
               </form>
             </div>
